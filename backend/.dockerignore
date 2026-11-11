@@ -1,0 +1,16 @@
+# Only runtime source and dependency declarations enter the Docker context.
+*
+!Dockerfile
+!.dockerignore
+!requirements.txt
+!constraints.txt
+!alembic.ini
+!app/
+!app/**
+!alembic/
+!alembic/**
+!scripts/
+!scripts/**
+**/__pycache__/
+**/*.py[cod]
+**/*.log
